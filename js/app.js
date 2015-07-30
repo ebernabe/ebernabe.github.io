@@ -132,7 +132,7 @@ var Contact = (function (_React$Component4) {
 $(document).foundation();
 $(document).ready(function () {
 
-	if (window.location.pathname == '/') {
+	if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
 		// It is not the home page. It is not xyz.com. It has something after /
 		$('#wrap').tubular({
 			videoId: 'ziDNDKt8ojA',
