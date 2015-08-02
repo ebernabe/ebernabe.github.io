@@ -66,7 +66,28 @@ var Skills = (function (_React$Component2) {
 				_react2['default'].createElement(
 					'h1',
 					null,
-					'my Skills'
+					'Skills'
+				),
+				_react2['default'].createElement(
+					'p',
+					null,
+					'I am a Front/Back-End Developer living and working in San Jose, Costa Rica. '
+				),
+				_react2['default'].createElement(
+					'p',
+					null,
+					'Making Websites or Internet Applications from zero to 100%.'
+				),
+				_react2['default'].createElement(
+					'p',
+					null,
+					'Skills: visual interaction design (Mockups), HTML5/Jade = 99%, Stylus/nib/CSS3/Foundation/(Polyfills if we need it) = 95%, Responsive Design/Media-Queries/Mobile First, Javascript/Ajax/REST/Jquery/Angular Js/React Js/JSON/Browserify  (',
+					_react2['default'].createElement(
+						'a',
+						{ href: "http://tetris.ml/" },
+						'try my hobby multiplayer in nodejs'
+					),
+					'), PHP=90%, Python/Django/Templates/Admin/Memcache %80, Git/SSH, Node.js/Socket.io/Express 50%, Mysql=85%, Photoshop=95%,  Apache/DNS/AWS, Linux/Mac/Windows are welcome, Grunt/Gulp task.'
 				)
 			);
 		}
@@ -93,7 +114,46 @@ var Work = (function (_React$Component3) {
 				_react2['default'].createElement(
 					'h1',
 					null,
-					'my Work'
+					'Work Examples'
+				),
+				_react2['default'].createElement(
+					'p',
+					null,
+					_react2['default'].createElement(
+						'a',
+						{ href: "https://github.com/ebernabe/" },
+						'Do you want to see an example of my code?'
+					),
+					' I am working in my free time in a ',
+					_react2['default'].createElement(
+						'a',
+						{ href: "https://github.com/ebernabe/tetris" },
+						'tetris multigamer'
+					),
+					' in node.js/socket.io/jquery/express/jade: (its not finished, but it works) Please try it ',
+					_react2['default'].createElement(
+						'a',
+						{ href: "http://tetris.ml/" },
+						'http://tetris.ml/'
+					),
+					' '
+				),
+				_react2['default'].createElement(
+					'p',
+					null,
+					'Or look at my ToDo list with timer in Angular ',
+					_react2['default'].createElement(
+						'a',
+						{ href: "https://github.com/ebernabe/ToDoListTimer/" },
+						'here'
+					),
+					'   ',
+					_react2['default'].createElement(
+						'a',
+						{ href: "http://thedictionary.ga/examples/todotimer/" },
+						'Please try it'
+					),
+					' '
 				)
 			);
 		}
