@@ -1,0 +1,192 @@
+@import 'nib'
+@import "normalize.styl"
+@import "foundation.styl"
+
+grisclaro = #ccc
+grisoscuro = #666
+
+body
+	color grisoscuro
+	font-size 16px
+	position relative
+#wrap
+	position absolute
+	top 0
+	z-index -9999999999
+#tubular-container
+	z-index -9999999999
+h1 
+	font-size 1.5em
+	div
+		font-size .7em
+.fromcr
+	font-size .7em
+ul.meclass
+	font-size .8em
+	margin 0 auto
+	text-align center
+	li
+		display inline
+		text-align center
+		 
+		a 
+			padding 10px
+			text-align center
+		
+.Portfolio
+	position relative
+	min-height 10vh
+	text-align center
+	
+	.Content
+		.Portfolio-article
+			h1 
+				text-align left
+				color #e57300
+			p 
+				text-align justify
+		.Portfolio-about
+			// -webkit-box-shadow none
+			
+			background-color rgba(50,100,99,.1)
+			box-shadow none
+			// box-shadow 10px 0px 0px rgba(0,0,0,.1)
+			
+		nav.menu			 
+			.Portfolio-item 
+				a
+					.menuvh 
+						min-height 0
+						height auto
+						color #2ba8cb
+			.Portfolio-item-title
+				font-size .9em
+				text-align left
+				color inherit
+				border-bottom 1px solid #2ba8cb
+				transform: skewX(0) skewY(-2deg);
+				span
+					font-size .9em
+					font-weight bold
+			.Portfolio-item-text
+				text-align left
+				font-size .7em
+				color inherit
+				
+				
+
+			.Portfolio-work,
+			.Portfolio-skills,
+			.Portfolio-contact
+				background-color inherit
+				height 3em
+				text-shadow none
+				box-shadow none
+				.Portfolio-item-text
+					text-shadow none
+					color #2ba8cb
+					padding 0
+					margin 0
+				a.menuvh
+					height 3em
+					min-height 0
+					color #2ba8cb
+					display block
+					padding-top 5px
+				&:hover
+					background-color inherit
+				
+		
+	&-article 
+		z-index: -4;
+		background-color white
+	&-about
+		color #666
+		padding 20px
+		background-color rgba(255,255,255,.9)
+		box-shadow 2px 2px 2px rgba(0,0,0,0.5)
+		h1 
+			color #0696bf
+			transform: skewX(0) skewY(-2deg);
+			border-top 1px solid #2ba8cb
+			border-bottom 1px solid #2ba8cb
+	// 	 &:hover 
+	// 		background-color rgba(0,0,0,0.5)
+	&-skills
+		// background-color rgba(255,193,47,.2)
+		background-color rgba(78,184,215,.2)
+		&:hover 
+			background-color  rgba(0,0,0,0.3)
+			box-shadow 2px 2px 2px rgba(0,0,0,0.9)
+	&-work
+		background-color rgba(78,184,215,.3)
+		&:hover 
+			background-color rgba(0,0,0,0.3)
+			box-shadow 2px 2px 2px rgba(0,0,0,0.9)
+	&-contact
+		background-color rgba(78,184,215,.4)
+		&:hover 
+			background-color  rgba(0,0,0,0.3)
+			box-shadow 2px 2px 2px rgba(0,0,0,0.9)
+	&-item
+		text-shadow 2px 2px 2px rgba(0,0,0,0.3)
+		
+		// background-color rgba(255,255,255,.5)
+		
+		a.menuvh 
+			color #fff//#0e2a9c
+			// background-color  rgba(255,255,255,.5)
+			display block
+			min-height 18vh
+			padding-top 5vh
+		&-title
+			font-size 2em
+		&-text
+			color #fff
+			font-size .9em
+			span
+				color #73d3ef
+				font-weight bold
+				font-size 1.2em
+				text-shadow 2px 2px 8px rgba(0,0,0,0.8)
+			
+
+#linkgit
+	display: block;
+	margin: 100px auto;
+	width: 100%;
+	text-align: center;
+
+@media only screen and (min-width:641px)
+	.Portfolio
+		min-height 75vh
+		height 100vh
+		text-align center
+		.Content
+			.Portfolio-about
+				min-height 100vh
+			nav.menu			 
+				.Portfolio-item 
+					a
+						.menuvh 
+							min-height 0
+							height auto
+		&-about
+			padding-top 35vh
+			
+			text-shadow none
+			background-color rgba(255,255,255,.9)
+			
+			h1 
+				color #0696bf
+				border-top 1px solid #2ba8cb
+				border-bottom 1px solid #2ba8cb
+		&-item
+			// border-top 19px solid white
+			height 100vh
+
+			a.menuvh
+				height 100vh
+				display block
+				padding-top 35vh
+				min-height 75vh

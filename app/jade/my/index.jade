@@ -1,0 +1,23 @@
+//- About - Skills - Work - Contact
+extends ../layout.jade
+
+block titlemeta
+	title Ernesto Bernabé S. FrontEnd
+block content
+	.Content
+		div.Portfolio-item.Portfolio-about.small-12.medium-3.large-3.columns(data-equalizer-watch)
+				div.text-center 
+					h1 Ernesto 
+						div Bernabé Solís
+					p FrontEnd / BackEnd Developer
+					p.fromcr From Costa Rica
+					ul.text-center.meclass
+						li 
+							a(href='http://twitter.com/ebernabe', target='_blank') @ebernabe
+						li 
+							a(href='https://github.com/ebernabe/', target='_blank') Github
+						li 
+							a(href='http://cr.linkedin.com/in/ernestobs/', target='_blank') Linkedin
+		nav.menu
+			+menux2
+		article#container.Portfolio-article.small-12.medium-9.large-9.columns(data-equalizer-watch) Loading ...
