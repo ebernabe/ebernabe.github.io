@@ -221,6 +221,16 @@ var Contact = (function (_React$Component4) {
 					'h2',
 					null,
 					'Contact Me'
+				),
+				_react2['default'].createElement(
+					'p',
+					null,
+					'Twitter ',
+					_react2['default'].createElement(
+						'a',
+						{ href: 'https://twitter.com/ebernabe', target: '_blank' },
+						'@ebernabe'
+					)
 				)
 			);
 		}

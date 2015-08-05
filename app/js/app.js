@@ -47,7 +47,9 @@ class Work extends React.Component{
 
 class Contact extends React.Component{
 	render(){
-		return <div><h2>Contact Me</h2></div>
+		return <div><h2>Contact Me</h2>
+				<p>Twitter <a href="https://twitter.com/ebernabe" target="_blank">@ebernabe</a></p>
+		</div>
 	}
 }
 
