@@ -232,11 +232,11 @@ var Contact = (function (_React$Component4) {
 $(document).foundation();
 $(document).ready(function () {
 
-	$('nav.menu .Portfolio-item').addClass('animated  fadeInDown');
+	// $('nav.menu .Portfolio-item').addClass('animated  fadeInDown');
 	// setTimeout(function(){$('.Portfolio-skills').addClass('animated  fadeInLeft')},100);
 	// setTimeout(function(){$('.Portfolio-work').addClass('animated  fadeInLeft')},100);
 	// setTimeout(function(){$('.Portfolio-contact').addClass('animated  fadeInLeft')},100);
-
+	$('.Portfolio-home').addClass('animated  flipInX');
 	$('.Portfolio-skills').addClass('animated  flipInX');
 	$('.Portfolio-work').addClass('animated    flipInX');
 	$('.Portfolio-contact').addClass('animated    flipInX');
