@@ -64,7 +64,7 @@ var Skills = (function (_React$Component2) {
 				'div',
 				null,
 				_react2['default'].createElement(
-					'h1',
+					'h2',
 					null,
 					'Skills'
 				),
@@ -84,7 +84,7 @@ var Skills = (function (_React$Component2) {
 					'Skills: visual interaction design (Mockups), HTML5/Jade = 99%, Stylus/nib/CSS3/Foundation/(Polyfills if we need it) = 95%, Responsive Design/Media-Queries/Mobile First, Javascript/Ajax/REST/Jquery/Angular Js/React Js/JSON/Browserify  (',
 					_react2['default'].createElement(
 						'a',
-						{ href: "http://tetris.ml/" },
+						{ href: 'http://tetris.ml/' },
 						'try my hobby multiplayer in nodejs'
 					),
 					'), PHP=90%, Python/Django/Templates/Admin/Memcache %80, Git/SSH, Node.js/Socket.io/Express 50%, Mysql=85%, Photoshop=95%,  Apache/DNS/AWS, Linux/Mac/Windows are welcome, Grunt/Gulp task.'
@@ -112,7 +112,7 @@ var Work = (function (_React$Component3) {
 				'div',
 				null,
 				_react2['default'].createElement(
-					'h1',
+					'h2',
 					null,
 					'Work Examples'
 				),
@@ -121,19 +121,19 @@ var Work = (function (_React$Component3) {
 					null,
 					_react2['default'].createElement(
 						'a',
-						{ href: "https://github.com/ebernabe/" },
+						{ href: 'https://github.com/ebernabe/', target: '_blank' },
 						'Do you want to see an example of my code?'
 					),
 					' I am working in my free time in a ',
 					_react2['default'].createElement(
 						'a',
-						{ href: "https://github.com/ebernabe/tetris" },
+						{ href: 'https://github.com/ebernabe/tetris', target: '_blank' },
 						'tetris multigamer'
 					),
 					' in node.js/socket.io/jquery/express/jade: (its not finished, but it works) Please try it ',
 					_react2['default'].createElement(
 						'a',
-						{ href: "http://tetris.ml/" },
+						{ href: 'http://tetris.ml/', target: '_blank' },
 						'http://tetris.ml/'
 					),
 					' '
@@ -144,16 +144,56 @@ var Work = (function (_React$Component3) {
 					'Or look at my ToDo list with timer in Angular ',
 					_react2['default'].createElement(
 						'a',
-						{ href: "https://github.com/ebernabe/ToDoListTimer/" },
+						{ href: 'https://github.com/ebernabe/ToDoListTimer/', target: '_blank' },
 						'here'
 					),
 					'   ',
 					_react2['default'].createElement(
 						'a',
-						{ href: "http://thedictionary.ga/examples/todotimer/" },
+						{ href: 'http://thedictionary.ga/examples/todotimer/', target: '_blank' },
 						'Please try it'
 					),
 					' '
+				),
+				_react2['default'].createElement(
+					'p',
+					null,
+					'Live Flickr Feed with React ',
+					_react2['default'].createElement(
+						'a',
+						{ href: 'https://github.com/ebernabe/ReactFlickrFeed', target: '_blank' },
+						'Click Here'
+					)
+				),
+				_react2['default'].createElement(
+					'p',
+					null,
+					'Example Using Ajax, SocketIO with React and pokemons :) ',
+					_react2['default'].createElement(
+						'a',
+						{ href: 'https://github.com/ebernabe/ReactPokemonAjaxSocketIO', target: '_blank' },
+						'Click Here'
+					)
+				),
+				_react2['default'].createElement(
+					'p',
+					null,
+					'Filter List With React (ecmascript 6) ',
+					_react2['default'].createElement(
+						'a',
+						{ href: 'https://github.com/ebernabe/FiltrarListaReact', target: '_blank' },
+						'Click Here'
+					)
+				),
+				_react2['default'].createElement(
+					'p',
+					null,
+					'Ajax Api/json, localStorage and pokemons :)  (ecmascript 6) ',
+					_react2['default'].createElement(
+						'a',
+						{ href: 'https://github.com/ebernabe/FiltrarListaReact', target: '_blank' },
+						'Click Here'
+					)
 				)
 			);
 		}
@@ -178,7 +218,7 @@ var Contact = (function (_React$Component4) {
 				'div',
 				null,
 				_react2['default'].createElement(
-					'h1',
+					'h2',
 					null,
 					'Contact Me'
 				)
@@ -191,6 +231,16 @@ var Contact = (function (_React$Component4) {
 
 $(document).foundation();
 $(document).ready(function () {
+
+	$('nav.menu .Portfolio-item').addClass('animated  fadeInDown');
+	// setTimeout(function(){$('.Portfolio-skills').addClass('animated  fadeInLeft')},100);
+	// setTimeout(function(){$('.Portfolio-work').addClass('animated  fadeInLeft')},100);
+	// setTimeout(function(){$('.Portfolio-contact').addClass('animated  fadeInLeft')},100);
+
+	$('.Portfolio-skills').addClass('animated  flipInX');
+	$('.Portfolio-work').addClass('animated    flipInX');
+	$('.Portfolio-contact').addClass('animated    flipInX');
+	// $('h1').addClass('animated  pulse');
 
 	if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
 		// It is not the home page. It is not xyz.com. It has something after /
@@ -206,9 +256,9 @@ $(document).ready(function () {
 			var routes = _react2['default'].createElement(
 				_reactRouter.Route,
 				{ handler: Portfolio },
-				_react2['default'].createElement(_reactRouter.Route, { path: "skills", handler: Skills }),
-				_react2['default'].createElement(_reactRouter.Route, { path: "work", handler: Work }),
-				_react2['default'].createElement(_reactRouter.Route, { path: "contact", handler: Contact })
+				_react2['default'].createElement(_reactRouter.Route, { path: 'skills', handler: Skills }),
+				_react2['default'].createElement(_reactRouter.Route, { path: 'work', handler: Work }),
+				_react2['default'].createElement(_reactRouter.Route, { path: 'contact', handler: Contact })
 			);
 
 			_reactRouter2['default'].run(routes, _reactRouter2['default'].HashLocation, function (Root) {
@@ -309,10 +359,10 @@ var tubular = (function ($, window) {
                 pWidth = Math.ceil(height * options.ratio); // get new player width
                 $tubularPlayer.width(pWidth).height(height).css({ left: (width - pWidth) / 2, top: 0 }); // player width is greater, offset left; reset top
             } else {
-                // new video width < window width (gap to right)
-                pHeight = Math.ceil(width / options.ratio); // get new player height
-                $tubularPlayer.width(width).height(pHeight).css({ left: 0, top: (height - pHeight) / 2 }); // player height is greater, offset top; reset left
-            }
+                    // new video width < window width (gap to right)
+                    pHeight = Math.ceil(width / options.ratio); // get new player height
+                    $tubularPlayer.width(width).height(pHeight).css({ left: 0, top: (height - pHeight) / 2 }); // player height is greater, offset top; reset left
+                }
         };
 
         // events

@@ -1,7 +1,7 @@
 @import 'nib'
 @import "normalize.styl"
 @import "foundation.styl"
-
+@import "animate.styl"
 grisclaro = #ccc
 grisoscuro = #666
 
@@ -43,11 +43,15 @@ ul.meclass
 			h1 
 				text-align left
 				color #e57300
+			h2
+				font-size 1em
+				text-align left
+				color #e57300
 			p 
 				text-align justify
 		.Portfolio-about
-			// -webkit-box-shadow none
 			
+			// -webkit-box-shadow none
 			background-color rgba(50,100,99,.1)
 			box-shadow none
 			// box-shadow 10px 0px 0px rgba(0,0,0,.1)
@@ -76,6 +80,7 @@ ul.meclass
 				
 
 			.Portfolio-work,
+			.Portfolio-home,
 			.Portfolio-skills,
 			.Portfolio-contact
 				background-color inherit
@@ -98,9 +103,10 @@ ul.meclass
 				
 		
 	&-article 
-		z-index: -4;
+		z-index: 0;
 		background-color white
 	&-about
+		z-index 9
 		color #666
 		padding 20px
 		background-color rgba(255,255,255,.9)
