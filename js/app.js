@@ -84,7 +84,7 @@ var Skills = (function (_React$Component2) {
 					'Skills: visual interaction design (Mockups), HTML5/Jade = 99%, Stylus/nib/CSS3/Foundation/(Polyfills if we need it) = 95%, Responsive Design/Media-Queries/Mobile First, Javascript/Ajax/REST/Jquery/Angular Js/React Js/JSON/Browserify  (',
 					_react2['default'].createElement(
 						'a',
-						{ href: 'http://tetris.ml/' },
+						{ href: 'http://tetrisapp1.aws.af.cm/' },
 						'try my hobby multiplayer in nodejs'
 					),
 					'), PHP=90%, Python/Django/Templates/Admin/Memcache %80, Git/SSH, Node.js/Socket.io/Express 50%, Mysql=85%, Photoshop=95%,  Apache/DNS/AWS, Linux/Mac/Windows are welcome, Grunt/Gulp task.'
@@ -133,8 +133,8 @@ var Work = (function (_React$Component3) {
 					' in node.js/socket.io/jquery/express/jade: (its not finished, but it works) Please try it ',
 					_react2['default'].createElement(
 						'a',
-						{ href: 'http://tetris.ml/', target: '_blank' },
-						'http://tetris.ml/'
+						{ href: 'http://tetrisapp1.aws.af.cm/', target: '_blank' },
+						'http://tetrisapp1.aws.af.cm/'
 					),
 					' '
 				),
