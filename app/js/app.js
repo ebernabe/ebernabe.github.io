@@ -35,8 +35,8 @@ class Skills extends React.Component{
 class Work extends React.Component{
 	render(){
 		return <div><h2>Work Examples</h2>
-		<p><a href="https://github.com/ebernabe/" target="_blank">Do you want to see an example of my code?</a> I am working in my free time in a <a href="https://github.com/ebernabe/tetris" target="_blank">tetris multigamer</a> in node.js/socket.io/jquery/express/jade: (its not finished, but it works) Please try it <a href="http://tetrisapp1.aws.af.cm/" target="_blank">http://tetrisapp1.aws.af.cm/</a> </p>
-<p>Or look at my ToDo list with timer in Angular <a href="https://github.com/ebernabe/ToDoListTimer/" target="_blank">here</a>   <a href="http://thedictionary.ga/examples/todotimer/"  target="_blank">Please try it</a> </p>
+		<p><a href="https://github.com/ebernabe/" target="_blank">Do you want to see an example of my code?</a> I am working in my free time in a <a href="https://github.com/ebernabe/tetris" target="_blank">tetris multigamer</a> in node.js/socket.io/jquery/express/jade: (its not finished, but it works)   </p>
+<p>Or look at my ToDo list with timer in Angular <a href="https://github.com/ebernabe/ToDoListTimer/" target="_blank">here</a>   </p>
 <p>Live Flickr Feed with React <a href="https://github.com/ebernabe/ReactFlickrFeed" target="_blank">Click Here</a></p>
 <p>Example Using Ajax, SocketIO with React and pokemons :) <a href="https://github.com/ebernabe/ReactPokemonAjaxSocketIO" target="_blank">Click Here</a></p>
 <p>Filter List With React (ecmascript 6) <a href="https://github.com/ebernabe/FiltrarListaReact" target="_blank">Click Here</a></p>
